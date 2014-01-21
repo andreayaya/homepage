@@ -1,6 +1,4 @@
-homepage
+Fredonia.edu's Home page.
 ========
 
-Fredonia.edu's 'Home Slice'.
-
-To view a preview: sunyfredonia.github.io/homepage
+[Preview the site](sunyfredonia.github.io/homepage)
