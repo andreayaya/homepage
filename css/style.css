@@ -2,5 +2,11 @@
 
 /*Major elements*/
 body { 
-padding-top: 70px;
+padding-top: 100px;
+}
+
+/**Navbar**/
+/*Logo*/
+.fred-logo {
+width:150px;
 }
