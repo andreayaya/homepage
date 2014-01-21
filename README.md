@@ -1,4 +1,4 @@
 Fredonia.edu's Home page.
 ========
 
-[Preview the site](sunyfredonia.github.io/homepage)
+[Preview the site](http://sunyfredonia.github.io/homepage/)
