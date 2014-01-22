@@ -90,23 +90,9 @@ JB :
   analytics :
     provider : google 
     google : 
-        tracking_id : 'UA-46443510-3'
-    getclicky :
-      site_id : 
-    mixpanel :
-        token : '_MIXPANEL_TOKEN_'
-    piwik :
-        baseURL : 'myserver.tld/piwik' # Piwik installation address (without protocol)
-        idsite : '1'                   # the id of the site on Piwik
+        tracking_id : 'UA-3356362-16'
 
-  # Settings for sharing helper. 
-  # Sharing is for things like tweet, plusone, like, reddit buttons etc.
-  # Set 'provider' to the sharing provider you want to use.
-  # Set 'provider' to false to turn sharing off globally.
-  #
-  sharing :
-    provider : false
-    
+  
   # Settings for all other include helpers can be defined by creating 
   # a hash with key named for the given helper. ex:
   #
@@ -123,79 +109,30 @@ authors:
   ngunner:
     name: Nicholas Gunner
     display_name: Nicholas Gunner
-    bio: Founder of Canopy Maps. Documentarian, storyteller, developer, and maker.
+    bio: New Media Manager at SUNY Fredonia
     gravatar: http://www.gravatar.com/avatar/a85d870dce3cc177b6b0016a1ef4c200.png
-    email: ngunner@enmoment.com
+    email: gunner@fredonia.edu
     web: http://www.nicholasgunner.com
     twitter: nicholas_gunner
     github: ngunner
-  cgunner:
-    name: Caitlin Gunner
-    display_name: Caitlin Gunner
-    bio:
+  jwoolson:
+    name: Jonathan Woolson
+    display_name: Jonathan Woolson
+    bio: Webmaster at SUNY Fredonia
     gravatar: 
     email: 
     web: 
     twitter: 
     github: 
+  awasiura:
+    name: Andrea Wasiura
+    display_name: Andrea Wasiura
+    bio: Web administrator at SUNY Fredonia
+    gravatar: 
+    email: 
+    web: 
+    twitter: 
+    github:   
 
   
 timezone : America/New_York
-  
-
-
-
-
-
-prose:
-  rooturl: '_posts'
-  siteurl: 'http://prose.github.io/starter/'
-  relativeLinks: 'http://prose.github.io/starter/links.jsonp'
-  media: 'media'
-  ignore:
-    - index.md
-    - _config.yml
-    - /_layouts
-    - /_includes
-  metadata:
-    _posts:
-      - name: "layout"
-        field:
-          element: "hidden"
-          value: "post"
-      - name: "title"
-        field:
-          element: "text"
-          label: "Post title"
-      - name: "category"
-        field:
-          element: "text"
-          label: "Category"
-      - name: "tags"
-        field:
-          element: "text"
-          label: "Add Tags"
-          placeholder: "Separate tags with a comma. Ex: tag1, tag2"
-      - name: "published"
-        field:
-          element: "checkbox"
-          label: "Published?"
-          value: "true"
-      - name: "author"
-        field:
-          element: "text"
-          label: "Author of this post"
-      - name: "post_image"
-        field:
-          element: "text"
-          label: "URL to image for this post"
-    _posts/static:
-      - name: "layout"
-        field:
-          element: "hidden"
-          value: "page"
-      - name: "permalink"
-        field:
-          element: "text"
-          label: "Permalink"
-          value: ""
