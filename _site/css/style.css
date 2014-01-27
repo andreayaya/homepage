@@ -1,12 +1,19 @@
+/*Navbar styles*/
+@import url("navbar.css");
+
+
+
+
 /*Special CSS for SUNY Fredonia's Home page*/
 
 /*Major elements*/
 body { 
-padding-top: 100px;
+padding-top: 50px;
 }
 
 /**Navbar**/
 /*Logo*/
 .fred-logo {
-width:150px;
+width:50px;
 }
+
