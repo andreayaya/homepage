@@ -20,3 +20,15 @@ padding-top: 50px;
 width:50px;
 }
 
+/**Accordions need padding when stacked**/
+.panel-group {
+margin-bottom: 5px;
+}
+
+/**Center block class for quickly centering objects and text**/
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
