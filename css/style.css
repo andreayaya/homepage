@@ -17,7 +17,9 @@ padding-top: 50px;
 /**Navbar**/
 /*Logo*/
 .fred-logo {
-width:50px;
+position:absolute;
+z-index: 50;
+padding: 20px;
 }
 
 /**Accordions need padding when stacked**/
