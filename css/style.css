@@ -17,8 +17,7 @@ padding-top: 50px;
 /**Navbar**/
 /*Logo*/
 .fred-logo {
-position:absolute;
-z-index: 50;
+height: 100px
 padding: 20px;
 }
 
