@@ -4,6 +4,9 @@
 /*Carousel styles*/
 @import url("carousel.css");
 
+/*Video styles*/
+@import url("video.css");
+
 
 
 
@@ -12,13 +15,6 @@
 /*Major elements*/
 body { 
 padding-top: 50px;
-}
-
-/**Navbar**/
-/*Logo*/
-.fred-logo {
-height: 100px
-padding: 20px;
 }
 
 /**Accordions need padding when stacked**/
@@ -37,4 +33,9 @@ margin-bottom: 5px;
 /**Social Icon group class**/
 .socialicons {
 font-size: 30px;
+}
+
+/*Logo*/
+.fred-logo {
+margin: 20px;
 }

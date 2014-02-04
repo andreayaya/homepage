@@ -27,3 +27,8 @@
   left: 0;
   right: 0;
 }
+
+/*Small Navs on left*/
+.smallnav {
+font-size: 12px;
+}
