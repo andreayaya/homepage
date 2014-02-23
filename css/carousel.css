@@ -1,3 +1,32 @@
 .carousel {
   margin-bottom: 10px;
 }
+
+/* Wide */
+@media (min-width: 1000px) {
+    #myCarousel.carousel img {
+    	width:100%;
+    	position: relative;
+    	overflow-y:hidden;
+    	
+    }
+    #myCarousel, div.carousel-inner {
+    	max-height: 700px;
+    }
+    
+    .carousel-caption {
+    	position: absolute;
+    	top: 50px;
+    	left: 12%;
+    	text-align: left;
+    	width: 600px;
+    }
+}
+
+/* MOBILE */
+@media (max-width: 600px) {
+    #myCarousel.carousel img {
+    	overflow: hidden;
+    	height: 500px;
+    }
+}

@@ -13,9 +13,7 @@
 /*Special CSS for SUNY Fredonia's Home page*/
 
 /*Major elements*/
-body { 
-padding-top: 50px;
-}
+
 
 /**Accordions need padding when stacked**/
 .panel-group {
