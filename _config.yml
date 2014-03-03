@@ -68,6 +68,10 @@ prose:
         field:
           element: "text"
           label: "URL to image"
+      - name: "link"
+        field:
+          element: "text"
+          label: "Enter a link for this slide"
       - name: "title"
         field:
           element: "text"
