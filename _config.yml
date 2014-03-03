@@ -76,7 +76,3 @@ prose:
         field:
           element: "text"
           label: "Slide title"
-      - name: "caption"
-        field:
-          element: "textarea"
-          label: "Caption"
