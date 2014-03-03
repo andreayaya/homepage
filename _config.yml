@@ -43,3 +43,36 @@ authors:
     
   
 timezone : America/New_York
+
+
+
+prose:
+  rooturl: '_posts'
+  siteurl: 'http://www.fredonia.edu'
+  metadata:
+    _posts/slides:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+      - name: "categories"
+        field:
+          element: "hidden"
+          value: "slide"
+      - name: "published"
+        field:
+          element: "checkbox"
+          label: "Published?"
+          value: "true"
+      - name: "imageUrl"
+        field:
+          element: "text"
+          label: "URL to image"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Slide title"
+      - name: "caption"
+        field:
+          element: "text"
+          label: "Caption"
