@@ -76,3 +76,55 @@ prose:
         field:
           element: "text"
           label: "Slide title"
+    _posts/bigBoxes:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+      - name: "categories"
+        field:
+          element: "hidden"
+          value: "bigbox"
+      - name: "published"
+        field:
+          element: "checkbox"
+          label: "Published?"
+          value: "true"
+      - name: "imageUrl"
+        field:
+          element: "text"
+          label: "URL to image"
+      - name: "link"
+        field:
+          element: "text"
+          label: "Enter a link for this slide"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Slide title"
+    _posts/boxes:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+      - name: "categories"
+        field:
+          element: "hidden"
+          value: "box"
+      - name: "published"
+        field:
+          element: "checkbox"
+          label: "Published?"
+          value: "true"
+      - name: "imageUrl"
+        field:
+          element: "text"
+          label: "URL to image"
+      - name: "link"
+        field:
+          element: "text"
+          label: "Enter a link for this slide"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Slide title"
