@@ -15,7 +15,7 @@
 				<img src="{{ post.imageUrl }}" alt="{{ post.title }}">
 				<div class="container">
 					<div class="carousel-caption">
-						<h3>{{ post.title }}</h3>
+						<div class="slidetitle">{{ post.title }}</div>
 						<p>{{ post.content }}</p>
 						{% if post.link %}
 						<p><a class="btn btn-lg btn-primary" href="{{ post.link }}" role="button">Read more</a></p>
@@ -29,7 +29,7 @@
 				<img src="{{ post.imageUrl }}" alt="{{ post.title }}">
 				<div class="container">
 					<div class="carousel-caption">
-						<h3>{{ post.title }}</h3>
+						<div class="slidetitle">{{ post.title }}</div>
 						<p>{{ post.content }}</p>
 						{% if post.link %}
 						<p><a class="btn btn-lg btn-primary" href="{{ post.link }}" role="button">Read more</a></p>
