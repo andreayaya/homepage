@@ -77,27 +77,3 @@
 		</div><!-- box -->
 	</div>
 </div><!-- row -->
-
-<div class="row">
-	<div class="col-md-3">
-		<div class="box">
-		{% for post in site.categories.box limit:1 offset:6 %}
-		<img class="img-responsive" src="{{ post.imageUrl }}">
-		{% endfor %}
-		</div><!-- box -->
-	</div>
-	<div class="col-md-3">
-		<div class="box">
-		{% for post in site.categories.box limit:1 offset:7 %}
-		<img class="img-responsive" src="{{ post.imageUrl }}">
-		{% endfor %}
-		</div><!-- box -->
-	</div>
-	<div class="col-md-6">
-		<div class="bigbox">
-		{% for post in site.categories.bigbox limit:1 offset:3 %}
-		<img class="img-responsive" src="{{ post.imageUrl }}">
-		{% endfor %}
-		</div><!-- bigbox -->
-	</div><!-- col-md-6 -->
-</div><!-- row -->
