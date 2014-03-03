@@ -78,5 +78,5 @@ prose:
           label: "Slide title"
       - name: "caption"
         field:
-          element: "text"
+          element: "textarea"
           label: "Caption"
