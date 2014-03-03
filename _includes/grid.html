@@ -43,7 +43,9 @@
 	</div>
 	<div class="col-md-6">
 		<div class="bigbox">
-		
+		{% for post in site.categories.bigbox limit:1 offset:1 %}
+		<img class="img-responsive" src="{{ post.imageUrl }}">
+		{% endfor %}
 		</div><!-- bigbox -->
 	</div><!-- col-md-6 -->
 </div><!-- row -->
