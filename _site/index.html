@@ -284,21 +284,21 @@
 	<div class="col-md-6">
 		<div class="bigbox">
 		
-		<a href="http://sunyfredoniasciencecenter.tumblr.com/"><img class="img-responsive" src="http://farm4.staticflickr.com/3763/12622562224_4eecc6eb82_h.jpg"></a>
+		<a href="http://sunyfredoniasciencecenter.tumblr.com/"><img src="http://farm4.staticflickr.com/3763/12622562224_4eecc6eb82_h.jpg"></a>
 		
 		</div><!-- bigbox -->
 	</div><!-- col-md-6 -->
 	<div class="col-md-3">
 		<div class="box">
 		
-		<a href="http://www.fredonia.edu"><img class="img-responsive" src="http://farm3.staticflickr.com/2877/11932168394_5461871e64_h.jpg"></a>
+		<a href="http://www.fredonia.edu"><img src="http://farm3.staticflickr.com/2877/11932168394_5461871e64_h.jpg"></a>
 		
 		</div><!-- box -->
 	</div>
 	<div class="col-md-3">
 		<div class="box">
 		
-		<a href="http://www.fredonia.edu"><img class="img-responsive" src="http://farm4.staticflickr.com/3790/12436499544_b0e29de704_h.jpg"></a>
+		<a href="http://www.fredonia.edu"><img src="http://farm4.staticflickr.com/3790/12436499544_b0e29de704_h.jpg"></a>
 		
 		</div><!-- box -->
 	</div>
@@ -308,21 +308,21 @@
 	<div class="col-md-3">
 		<div class="box">
 		
-		<a href="http://www.fredonia.edu"><img class="img-responsive" src="http://farm4.staticflickr.com/3736/12618367174_be41bd1fef_h.jpg"></a>
+		<a href="http://www.fredonia.edu"><img src="http://farm4.staticflickr.com/3736/12618367174_be41bd1fef_h.jpg"></a>
 		
 		</div><!-- box -->
 	</div>
 	<div class="col-md-3">
 		<div class="box">
 		
-		<a href="http://www.fredonia.edu"><img class="img-responsive" src="http://farm4.staticflickr.com/3830/12531849173_b97cae5e78_h.jpg"></a>
+		<a href="http://www.fredonia.edu"><img src="http://farm4.staticflickr.com/3830/12531849173_b97cae5e78_h.jpg"></a>
 		
 		</div><!-- box -->
 	</div>
 	<div class="col-md-6">
 		<div class="bigbox">
 		
-		<a href="http://www.fredonia.edu"><img class="img-responsive" src="http://farm3.staticflickr.com/2882/12532121874_27e2e42685_h.jpg"></a>
+		<a href="http://www.fredonia.edu"><img src="http://farm3.staticflickr.com/2882/12532121874_27e2e42685_h.jpg"></a>
 		
 		</div><!-- bigbox -->
 	</div><!-- col-md-6 -->
@@ -332,21 +332,21 @@
 	<div class="col-md-6">
 		<div class="bigbox">
 		
-		<a href="http://www.fredonia.edu/music"><img class="img-responsive" src="http://farm4.staticflickr.com/3700/12664232073_09255485c6_h.jpg"></a>
+		<a href="http://www.fredonia.edu/music"><img src="http://farm4.staticflickr.com/3700/12664232073_09255485c6_h.jpg"></a>
 		
 		</div><!-- bigbox -->
 	</div><!-- col-md-6 -->
 	<div class="col-md-3">
 		<div class="box">
 		
-		<a href="http://www.fredonia.edu/news"><img class="img-responsive" src="http://farm8.staticflickr.com/7310/12664493545_a77a2d8cb3_h.jpg"></a>
+		<a href="http://www.fredonia.edu/news"><img src="http://farm8.staticflickr.com/7310/12664493545_a77a2d8cb3_h.jpg"></a>
 		
 		</div><!-- box -->
 	</div>
 	<div class="col-md-3">
 		<div class="box">
 		
-		<a href="http://www.fredonia.edu/music"><img class="img-responsive" src="http://farm4.staticflickr.com/3666/12840353063_509849574d_c.jpg"></a>
+		<a href="http://www.fredonia.edu/music"><img src="http://farm4.staticflickr.com/3666/12840353063_509849574d_c.jpg"></a>
 		
 		</div><!-- box -->
 	</div>
@@ -416,5 +416,15 @@ Fredonia, NY 14063<br>
     <!-- Bootstrap Javascript -->
     <!-- Latest compiled and minified JavaScript -->
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    
+    <!-- Script to center landscape vs portrait images in grid -->
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/2.1.0/jquery.imagesloaded.min.js"></script>
+        <script src="/js/jquery-imagefill.js"></script>
+        <script>
+            $('.box').imagefill();
+        </script>
+        <script>
+            $('.bigbox').imagefill();
+        </script>
   </body>
 </html>
