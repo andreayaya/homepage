@@ -6,6 +6,10 @@
 font-size: 30px;
 }
 
+.slidecaption p {
+	font-size: 16px;
+}
+
 /* Wide */
 @media (min-width: 1000px) {
     #myCarousel.carousel img {
@@ -25,12 +29,19 @@ font-size: 30px;
     	text-align: left;
     	width: 600px;
     }
+    .slidetitle {
+		font-size: 40px;
+	}
+    .slidecaption p {
+		font-size: 20px;
+	}
 }
 
 /* MOBILE */
 @media (max-width: 600px) {
 	.carousel {
-	background-color: #005DAA;
+		background-color: #005DAA;
+		margin-top: 50px;
 	}
 	.carousel-caption {
     	position: relative;
@@ -41,9 +52,12 @@ font-size: 30px;
     	height: 150px;
     }
     .carousel-indicators {
-    display: none;
+    	display: none;
     }
     .slidetitle {
-	font-size: 18px;
+		font-size: 20px;
+	}
+	.slidecaption p{
+		font-size: 12px;
 	}
 }
