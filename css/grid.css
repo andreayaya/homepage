@@ -1,9 +1,24 @@
 .bigbox {
 height: 250px;
+position: relative;
 }
 
 .box {
 height: 250px;
+}
+
+.boxoverlay {
+   position: absolute; 
+   bottom: 20px; 
+   left: 0; 
+   width: 100%; 
+   font-size: 18px;
+   color: white;
+   background-color: rgba(0,0,0,0.6);
+}
+
+span.boxspacer {
+   padding:0 5px;
 }
 
 
