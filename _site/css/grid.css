@@ -17,7 +17,7 @@ height: 250px;
    background-color: rgba(0,0,0,0.6);
 }
 
-span.boxspacer {
+.boxspacer {
    padding:0 5px;
 }
 
