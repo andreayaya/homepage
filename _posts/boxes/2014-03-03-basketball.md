@@ -3,9 +3,8 @@ categories: box
 layout: post
 published: true
 title: Basketball
-imageUrl: "http://farm4.staticflickr.com/3830/12531849173_b97cae5e78_h.jpg"
+imageUrl: "http://farm9.staticflickr.com/8463/8371100593_3ba0890da4_b.jpg"
 link: "http://www.fredonia.edu"
 ---
-
 
 Yes, we know how to play basketball here!
