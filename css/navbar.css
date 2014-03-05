@@ -2,3 +2,10 @@
 .smallnav {
 font-size: 12px;
 }
+
+.navbarpills {
+margin-top: 49px;
+position: absolute;
+z-index: 500;
+right: 5px;
+}
