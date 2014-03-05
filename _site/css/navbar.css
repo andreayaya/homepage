@@ -5,7 +5,7 @@ font-size: 12px;
 
 .navbarpills {
 margin-top: 49px;
-position: absolute;
+position: fixed;
 z-index: 500;
 right: 5px;
 }
