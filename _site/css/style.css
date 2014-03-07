@@ -49,3 +49,8 @@ margin: 20px;
 }
 
 /* Backgrounds */
+body
+{
+background-color: transparent;
+background-image:url('{{ site.baseurl }}/img/linen.png');
+}
