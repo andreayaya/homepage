@@ -49,9 +49,8 @@ margin: 20px;
 }
 
 /* Backgrounds */
-body
-{
+.mission {
 background-color: transparent;
-background-image:url('http://sunyfredonia.github.io/homepage/img/linen.png');
+background-image:url('/img/paper_fibers.png');
 background-repeat: repeat;
 }
