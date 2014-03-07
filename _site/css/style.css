@@ -1,20 +1,20 @@
-/*Navbar styles*/
+/* Navbar styles */
 @import url("navbar.css");
 
-/*Carousel styles*/
+/* Carousel styles */
 @import url("carousel.css");
 
-/*Video styles*/
+/* Video styles */
 @import url("video.css");
 
-/*Grid styles*/
+/* Grid styles */
 @import url("grid.css");
 
 
 
-/*Special CSS for SUNY Fredonia's Home page*/
+/* Special CSS for SUNY Fredonia's Home page */
 
-/*Major elements*/
+/* Major elements */
 
 p {
 font-size: 16px;
@@ -25,12 +25,12 @@ font-family: helvetica;
 }
 
 
-/**Accordions need padding when stacked**/
+/* Accordions need padding when stacked */
 .panel-group {
 margin-bottom: 5px;
 }
 
-/**Center block class for quickly centering objects and text**/
+/* Center block class for quickly centering objects and text */
 .center-block {
   display: block;
   margin-left: auto;
@@ -38,12 +38,18 @@ margin-bottom: 5px;
   text-align: center;
 }
 
-/**Social Icon group class**/
+/* Social Icon group class */
 .socialicons {
 font-size: 30px;
 }
 
-/*Logo*/
+/* Logo */
 .fred-logo {
 margin: 20px;
+}
+
+/* Backgrounds */
+.grid {
+background-image:url('{{ site.baseurl }}/img/low_contrast_linen.png');
+background-repeat:repeat-y;
 }
