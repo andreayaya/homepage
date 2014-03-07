@@ -49,7 +49,3 @@ margin: 20px;
 }
 
 /* Backgrounds */
-.grid {
-background-image:url('{{ site.baseurl }}/img/low_contrast_linen.png');
-background-repeat:repeat-y;
-}
