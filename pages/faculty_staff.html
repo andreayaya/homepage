@@ -1,7 +1,186 @@
 ---
 layout: page
+title: Faculty & Staff
 ---
 <div style="height:50px;"></div>
 <div class="container">
-	<script async src="https://d36hc0p18k1aoc.cloudfront.net/public/js/modules/tintembed.js"></script><div class="tintup" data-id="sunyfredoniapr/twitter" data-columns="" data-expand="true" style="height:800px;width:100%;"><a href="http://www.tintup.com/blog/the-best-facebook-widget" style="width:118px;height:31px;background-image:url(//d33w9bm0n1egwm.cloudfront.net/assets/logos/poweredbytintsmall.png);position:absolute;bottom:10px;right: 20px;text-indent: -9999px;z-index:9;">facebook widget</a></div>
-</div>
+<h1 class="text-center">{{ page.title }}</h1>
+<div class="accordion">
+	<div class="col-md-4">
+		<div class="panel-group" id="accordion">
+			<div class="panel panel-default">
+				<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+				<div class="panel-heading">
+			  		<h4 class="panel-title center-block">
+				  			e-Services
+			  		</h4>
+				</div><!-- panel-heading -->
+				</a>
+				<div id="collapseOne" class="panel-collapse collapse">
+			  		<div class="panel-body">
+						{% include menus/e-services.html %}
+			  		</div><!-- panel-body -->
+				</div><!-- panel-collapse collapse -->
+		  	</div><!-- panel panel-default -->
+		  	<div class="panel panel-default">
+		  		<a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+				<div class="panel-heading">
+			  		<h4 class="panel-title center-block">
+				  			Academics
+			  		</h4>
+				</div><!-- panel-heading -->
+				</a>
+				<div id="collapseTwo" class="panel-collapse collapse">
+			  		<div class="panel-body">
+						{% include menus/academics.html %}
+			  		</div><!-- panel-body -->
+				</div><!-- panel-collapse collapse -->
+		  	</div><!-- panel panel-default -->
+		</div><!-- panel- group -->
+		<div class="panel-group" id="accordion">
+			<div class="panel panel-default">
+				<a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+				<div class="panel-heading">
+			  		<h4 class="panel-title center-block">
+				  			Academic Support
+			  		</h4>
+				</div><!-- panel-heading -->
+				</a>
+				<div id="collapseThree" class="panel-collapse collapse">
+			  		<div class="panel-body">
+						{% include menus/academic_support.html %}
+			  		</div><!-- panel-body -->
+				</div><!-- panel-collapse collapse -->
+		  	</div><!-- panel panel-default -->
+		  	<div class="panel panel-default">
+		  		<a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
+				<div class="panel-heading">
+			  		<h4 class="panel-title center-block">
+				  			Courses
+			  		</h4>
+				</div><!-- panel-heading -->
+				</a>
+				<div id="collapseFour" class="panel-collapse collapse">
+			  		<div class="panel-body">
+						{% include menus/courses.html %}
+			  		</div><!-- panel-body -->
+				</div><!-- panel-collapse collapse -->
+		  	</div><!-- panel panel-default -->
+		</div><!-- panel- group -->
+		<div class="panel-group" id="accordion">
+			<div class="panel panel-default">
+				<a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
+				<div class="panel-heading">
+			  		<h4 class="panel-title center-block">
+				  			Advising Services
+			  		</h4>
+				</div><!-- panel-heading -->
+				</a>
+				<div id="collapseFive" class="panel-collapse collapse">
+			  		<div class="panel-body">
+						{% include menus/advising_services.html %}
+			  		</div><!-- panel-body -->
+				</div><!-- panel-collapse collapse -->
+		  	</div><!-- panel panel-default -->
+		</div><!-- panel- group -->
+		<div class="panel-group" id="accordion">
+			<div class="panel panel-default">
+				<a data-toggle="collapse" data-parent="#accordion" href="#collapseSeven">
+				<div class="panel-heading">
+			  		<h4 class="panel-title center-block">
+				  			Calendars
+			  		</h4>
+				</div><!-- panel-heading -->
+				</a>
+				<div id="collapseSeven" class="panel-collapse collapse">
+			  		<div class="panel-body">
+						{% include menus/calendars.html %}
+			  		</div><!-- panel-body -->
+				</div><!-- panel-collapse collapse -->
+		  	</div><!-- panel panel-default -->
+		</div><!-- panel-group -->
+	</div><!-- col-md-4 -->
+	<div class="col-md-4">
+		<div class="panel-group" id="accordion">
+		  	<div class="panel panel-default">
+		  		<a data-toggle="collapse" data-parent="#accordion" href="#collapseTwelve">
+				<div class="panel-heading">
+			  		<h4 class="panel-title center-block">
+				  			Middle States Accreditation
+			  		</h4>
+				</div><!-- panel-heading -->
+				</a>
+				<div id="collapseTwelve" class="panel-collapse collapse">
+			  		<div class="panel-body">
+						{% include menus/middle_states.html %}
+			  		</div><!-- panel-body -->
+				</div><!-- panel-collapse collapse -->
+		  	</div><!-- panel panel-default -->
+		</div><!-- panel-group -->
+		<div class="panel-group" id="accordion">
+			<div class="panel panel-default">
+				<a data-toggle="collapse" data-parent="#accordion" href="#collapseThirteen">
+				<div class="panel-heading">
+			  		<h4 class="panel-title center-block">
+				  			Sustainability
+			  		</h4>
+				</div><!-- panel-heading -->
+				</a>
+				<div id="collapseThirteen" class="panel-collapse collapse">
+			  		<div class="panel-body">
+						{% include menus/sustainability.html %}
+			  		</div><!-- panel-body -->
+				</div><!-- panel-collapse collapse -->
+		  	</div><!-- panel panel-default -->
+		</div><!-- panel-group -->
+	</div><!-- col-md-4 -->
+	<div class="col-md-4">
+		<div class="panel-group" id="accordion">
+			<div class="panel panel-default">
+				<a data-toggle="collapse" data-parent="#accordion" href="#collapseTwentyone">
+				<div class="panel-heading">
+			  		<h4 class="panel-title center-block">
+				  			University Policies
+			  		</h4>
+				</div><!-- panel-heading -->
+				</a>
+				<div id="collapseTwentyone" class="panel-collapse collapse">
+			  		<div class="panel-body">
+						{% include menus/university_policies.html %}
+			  		</div><!-- panel-body -->
+				</div><!-- panel-collapse collapse -->
+		  	</div><!-- panel panel-default -->
+		  	<div class="panel panel-default">
+		  		<a data-toggle="collapse" data-parent="#accordion" href="#collapseTwentytwo">
+				<div class="panel-heading">
+			  		<h4 class="panel-title center-block">
+				  			Facilities
+			  		</h4>
+				</div><!-- panel-heading -->
+				</a>
+				<div id="collapseTwentytwo" class="panel-collapse collapse">
+			  		<div class="panel-body">
+						{% include menus/facilities.html %}
+			  		</div><!-- panel-body -->
+				</div><!-- panel-collapse collapse -->
+		  	</div><!-- panel panel-default -->
+		</div><!-- panel-group -->
+		<div class="panel-group" id="accordion">
+			<div class="panel panel-default">
+				<a data-toggle="collapse" data-parent="#accordion" href="#collapseTwentythree">
+				<div class="panel-heading">
+			  		<h4 class="panel-title center-block">
+				  			University Services
+			  		</h4>
+				</div><!-- panel-heading -->
+				</a>
+				<div id="collapseTwentythree" class="panel-collapse collapse">
+			  		<div class="panel-body">
+						{% include menus/university_services.html %}
+			  		</div><!-- panel-body -->
+				</div><!-- panel-collapse collapse -->
+		  	</div><!-- panel panel-default -->
+		</div><!-- panel-group -->
+	</div><!-- col-md-4 -->
+</div><!-- accourdion -->
+</div><!-- container -->
