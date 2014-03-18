@@ -21,7 +21,7 @@
 			<div class="boxoverlay"><span class="boxspacer"></span><span>{{ post.title }} <small><span class="glyphicon glyphicon-arrow-right"></span></small></span></div>
 		</a>
 		{% else %}
-		<a href="{{ post.link }}"><div class="boxtype">{{ post.content }}</div></a>
+		<div class="boxtype"><a href="{{ post.link }}">{{ post.content }}</a></div>
 		<div class="fadeout"></div>
 		{% endif %}
 		{% endfor %}
