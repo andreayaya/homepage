@@ -24,7 +24,7 @@ font-size: 30px;
     
     .carousel-caption {
     	position: absolute;
-    	top: 55px;
+    	top: 60px;
     	left: 8%;
     	text-align: left;
     	width: 640px;
@@ -38,6 +38,14 @@ font-size: 30px;
     .slidecaption p {
 		font-size: 18px;
 	}
+}
+
+/* TABLET */
+@media (min-width: 600px) {
+.carousel-caption {
+    	background-color: rgba(0,0,0,0.4);
+    	padding: 5px 20px 5px 20px;
+    }
 }
 
 /* MOBILE */
