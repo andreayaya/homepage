@@ -18,7 +18,7 @@ border-radius: 10px; /* future proofing */
 .boxtype p {
 padding: 15px 25px;
 font-family: garamond, georgia, serif;
-color: rgba(0,93,170,1);
+color: white;
 font-size: 30px;
 text-align: center;
 }
