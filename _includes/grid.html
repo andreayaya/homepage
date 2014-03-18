@@ -16,9 +16,12 @@
 	<div class="col-md-3">
 		<div class="box">
 		{% for post in site.categories.box limit:1 %}
+		{% if post.imageUrl %}
 		<a href="{{ post.link }}"><img src="{{ post.imageUrl }}">
 			<div class="boxoverlay"><span class="boxspacer"></span><span>{{ post.title }} <small><span class="glyphicon glyphicon-arrow-right"></span></small></span></div>
 		</a>
+		{% else %}
+		<div class="boxtype">{{ post.content }}</div>
 		{% endfor %}
 		</div><!-- box -->
 	</div>
