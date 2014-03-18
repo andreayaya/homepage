@@ -15,9 +15,12 @@ border-radius: 10px; /* future proofing */
 -khtml-border-radius: 10px; /* for old Konqueror browsers */
 }
 
-.boxtype {
-color: black;
-background-color: blue;
+.boxtype p {
+padding: 10px 20px;
+font-family: garamond;
+color: rgba(0,93,170,1);
+font-size: 30px;
+font-style: italic;
 }
 
 .boxoverlay {
