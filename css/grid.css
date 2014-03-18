@@ -17,7 +17,7 @@ border-radius: 10px; /* future proofing */
 
 .boxtype p {
 padding: 10px 20px;
-font-family: georgia;
+font-family: garamond, georgia, serif;
 color: rgba(0,93,170,1);
 font-size: 25px;
 font-style: italic;
