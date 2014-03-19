@@ -3,11 +3,11 @@
 }
 
 .slidetitle {
-font-size: 30px;
+font-size: 20px;
 }
 
 .slidecaption p {
-	font-size: 16px;
+	font-size: 14px;
 }
 
 /* Wide */
@@ -24,29 +24,70 @@ font-size: 30px;
     
     .carousel-caption {
     	position: absolute;
-    	top: 60px;
-    	left: 8%;
+    	top: 500px;
+    	left: 33%;
     	text-align: left;
     	width: 640px;
-    	background-color: rgba(0,0,0,0.4);
+    	background-color: rgba(0,0,0,0.8);
     	padding: 5px 20px 5px 20px;
     	bottom: auto;
     }
     .slidetitle {
-		font-size: 35px;
+		font-size: 20px;
 	}
     .slidecaption p {
-		font-size: 18px;
+		font-size: 14px;
 	}
 }
+
+@media (min-width: 1100px) {
+    .carousel-caption {
+    	position: absolute;
+    	top: 500px;
+    	left: 45%;
+    	text-align: left;
+    	width: 640px;
+    	background-color: rgba(0,0,0,0.8);
+    	padding: 5px 20px 5px 20px;
+    	bottom: auto;
+    }
+}
+
+@media (min-width: 1200px) {
+    .carousel-caption {
+    	position: absolute;
+    	top: 500px;
+    	left: 50%;
+    	text-align: left;
+    	width: 640px;
+    	background-color: rgba(0,0,0,0.8);
+    	padding: 5px 20px 5px 20px;
+    	bottom: auto;
+    }
+}
+@media (min-width: 1500px) {
+    .carousel-caption {
+    	position: absolute;
+    	top: 500px;
+    	left: 55%;
+    	text-align: left;
+    	width: 640px;
+    	background-color: rgba(0,0,0,0.8);
+    	padding: 5px 20px 5px 20px;
+    	bottom: auto;
+    }
+}
+
 
 /* TABLET */
 @media (min-width: 600px) {
 .carousel-caption {
-    	background-color: rgba(0,0,0,0.4);
+    	background-color: rgba(0,0,0,0.8);
     	padding: 5px 20px 5px 20px;
     }
 }
+
+
 
 /* MOBILE */
 @media (max-width: 600px) {
