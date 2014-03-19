@@ -32,28 +32,30 @@
   		<!-- Collect the nav links, forms, and other content for toggling -->
   		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
     		<ul class="nav navbar-nav navbar-right">
-      			<li><a href="/pages/students.html">Students</a></li>
-      			<li><a href="/pages/faculty_staff.html">Faculty & Staff</a></li>
       			<li><a href="http://www.fredonia.edu/admissions/prospective.asp">Admissions</a></li>
-      			<li><a href="http://www.fredonia.edu/studentaffairs/parentlinks.asp">Parents</a></li>
-      			<li><a href="http://alumni.fredonia.edu/">Alumni</a></li>
-      			<li><a href="http://www.fredonia.edu/foundation/">Giving</a></li>
-      			<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-search"></span> <b class="caret"></b></a>
+      			<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Students <b class="caret"></b></a>
         			<ul class="dropdown-menu">
-      					<form class="navbar-form navbar-right" role="search">
-      						<div class="form-group">
-        						<p><input type="text" class="form-control" placeholder="Search"><button type="submit" class="btn btn-default">Search</button><p>
-      						</div><!-- form-group -->
-      					</form>
-          				<li><a href="#">FREDapps</a></li>
-          				<li><a href="#">Services</a></li>
-      					<li><a href="#">Calendars</a></li>
-      					<li><a href="#">Maps</a></li>
-      					<li><a href="#">A-Z Index</a></li>
+        				<li><a href="http://alumni.fredonia.edu/">Student Resources</a></li>
+        				<li><a href="http://www.fredonia.edu/foundation/">Parent Resources</a></li>
+        			</ul>
+        		</li>
+      			<li><a href="/pages/faculty_staff.html">Faculty & Staff</a></li>
+      			<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Alumni <b class="caret"></b></a>
+        			<ul class="dropdown-menu">
+        				<li><a href="http://alumni.fredonia.edu/">Alumni Network</a></li>
+        				<li><a href="http://www.fredonia.edu/foundation/">Giving</a></li>
+        			</ul>
+        		</li>
+      			<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="fa fa-envelope"></span> <b class="caret"></b></a>
+        			<ul class="dropdown-menu">
+          				<li><a href="#">FREDmail</a></li>
+          				<li><a href="#">Angel</a></li>
+          				<li><a href="#">Your Connection</a></li>
           				<li class="divider"></li>
-          				<li><a href="#">Separated link</a></li>
+          				<li><a href="#">All FREDapps</a></li>
         			</ul>
       			</li>
+      			<li><a href="#searchbox"><span class="glyphicon glyphicon-search"></span></a></li>
     		</ul>
     	</div><!-- collapse navbar-collapse -->
 	</div><!-- container -->
@@ -66,6 +68,10 @@
 		<button type="button" class="btn btn-sm btn-default">About</button>
 		<button type="button" class="btn btn-sm btn-default">Visit</button>
 		<button type="button" class="btn btn-sm btn-primary">Apply</button>
+		<button type="button" class="btn btn-sm btn-default">Services</button>
+		<button type="button" class="btn btn-sm btn-default">Calendars</button>
+		<button type="button" class="btn btn-sm btn-default">Maps</button>
+		<button type="button" class="btn btn-sm btn-default">A-Z Index</button>
     </div>
 </div><!-- navbarpills -->
 </div><!-- container -->
@@ -452,5 +458,23 @@ Fredonia, NY 14063<br>
         <script>
             $('.bigbox').imagefill();
         </script>
+        
+	<!-- smooth scroll -->
+	<script>
+	$(function() {
+  $('a[href=#searchbox]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+	</script>
   </body>
 </html>
