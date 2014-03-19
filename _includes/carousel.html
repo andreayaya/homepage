@@ -16,10 +16,14 @@
 				<img src="{{ post.imageUrl }}" alt="{{ post.title }}">
 				<div class="container">
 					<div class="carousel-caption">
+						<div class="col-md-11">
 						<div class="slidetitle">{{ post.title }}</div>
 						<div class="slidecaption">{{ post.content }}</div>
+						</div>
 						{% if post.link %}
-						<p><a class="btn btn-sm btn-primary" href="{{ post.link }}" role="button">Read more</a></p>
+						<div class="col-md-1">
+						<div class="morearrow"><a href="{{ post.link }}"><span class="fa fa-arrow-circle-o-right"></span></a></div>
+						</div>
 						{% endif %}
 					</div><!-- carousel-caption -->
 				</div><!-- container -->
@@ -30,10 +34,14 @@
 				<img src="{{ post.imageUrl }}" alt="{{ post.title }}">
 				<div class="container">
 					<div class="carousel-caption">
+						<div class="col-md-11">
 						<div class="slidetitle">{{ post.title }}</div>
 						<div class="slidecaption">{{ post.content }}</div>
+						</div>
 						{% if post.link %}
-						<p><a class="btn btn-sm btn-primary" href="{{ post.link }}" role="button">Read more</a></p>
+						<div class="col-md-1">
+						<div class="morearrow"><a href="{{ post.link }}"><span class="fa fa-arrow-circle-o-right"></span></a></div>
+						</div>
 						{% endif %}
 					</div><!-- carousel-caption -->
 				</div><!-- container -->

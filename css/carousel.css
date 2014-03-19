@@ -10,6 +10,10 @@ font-size: 20px;
 	font-size: 14px;
 }
 
+.morearrow {
+font-size: 40px;
+}
+
 /* Wide */
 @media (min-width: 1000px) {
     #myCarousel.carousel img {
