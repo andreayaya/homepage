@@ -1,18 +1,18 @@
 .bigbox {
 height: 250px;
 position: relative;
--moz-border-radius: 10px;
--webkit-border-radius: 10px;
-border-radius: 10px; /* future proofing */
--khtml-border-radius: 10px; /* for old Konqueror browsers */
+-moz-border-radius: 1px;
+-webkit-border-radius: 1px;
+border-radius: 1px; /* future proofing */
+-khtml-border-radius: 1px; /* for old Konqueror browsers */
 }
 
 .box {
 height: 250px;
--moz-border-radius: 10px;
--webkit-border-radius: 10px;
-border-radius: 10px; /* future proofing */
--khtml-border-radius: 10px; /* for old Konqueror browsers */
+-moz-border-radius: 1px;
+-webkit-border-radius: 1px;
+border-radius: 1px; /* future proofing */
+-khtml-border-radius: 1px; /* for old Konqueror browsers */
 }
 
 .boxtype p {
@@ -69,18 +69,18 @@ padding-left: 10px;
 
 
 .grid .row {
-margin-bottom: 5px;
-margin-top: 5px;
+margin-bottom: 12px;
+margin-top: 12px;
 }
 
 .grid .col-md-6 {
-padding-left: 3px;
-padding-right: 3px;
+padding-left: 6px;
+padding-right: 6px;
 }
 
 .grid .col-md-3 {
-padding-left: 3px;
-padding-right: 3px;
+padding-left: 6px;
+padding-right: 6px;
 }
 
 @media (max-width: 992px) {
