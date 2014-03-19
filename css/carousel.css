@@ -24,10 +24,10 @@ font-size: 20px;
     
     .carousel-caption {
     	position: absolute;
-    	top: 500px;
-    	left: 33%;
+    	top: 520px;
+    	left: 50%;
     	text-align: left;
-    	width: 640px;
+    	width: 550px;
     	background-color: rgba(0,0,0,0.8);
     	padding: 5px 20px 5px 20px;
     	bottom: auto;
@@ -43,10 +43,10 @@ font-size: 20px;
 @media (min-width: 1100px) {
     .carousel-caption {
     	position: absolute;
-    	top: 500px;
-    	left: 45%;
+    	top: 520px;
+    	left: 50%;
     	text-align: left;
-    	width: 640px;
+    	width: 550px;
     	background-color: rgba(0,0,0,0.8);
     	padding: 5px 20px 5px 20px;
     	bottom: auto;
@@ -56,10 +56,10 @@ font-size: 20px;
 @media (min-width: 1200px) {
     .carousel-caption {
     	position: absolute;
-    	top: 500px;
+    	top: 520px;
     	left: 50%;
     	text-align: left;
-    	width: 640px;
+    	width: 550px;
     	background-color: rgba(0,0,0,0.8);
     	padding: 5px 20px 5px 20px;
     	bottom: auto;
@@ -68,10 +68,10 @@ font-size: 20px;
 @media (min-width: 1500px) {
     .carousel-caption {
     	position: absolute;
-    	top: 500px;
+    	top: 520px;
     	left: 55%;
     	text-align: left;
-    	width: 640px;
+    	width: 550px;
     	background-color: rgba(0,0,0,0.8);
     	padding: 5px 20px 5px 20px;
     	bottom: auto;
