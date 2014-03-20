@@ -97,7 +97,7 @@ font-size: 40px;
 @media (max-width: 600px) {
 	.carousel {
 		background-color: #005DAA;
-		margin-top: 60px;
+		margin-top: 50px;
 	}
 	.carousel-caption {
     	position: relative;

@@ -2,11 +2,8 @@
 margin-top: 22px;
 }
 
+/** Large **/
 @media (min-width: 600px) {
-
-.smalllinks {
-font-size: 10px;
-}
 
 .nav {
 padding-top: 13px;
@@ -34,3 +31,18 @@ height: 80px;
 .navbar-inverse .navbar-nav>li>a { color: #D4D4D4}
 .navbar-nav>.open>a:focus { color: #D4D4D4}
 }
+
+/** Mobile **/
+@media (max-width: 600px) {
+
+.navbar-toggle {
+margin-top: 10px;
+}
+
+.navbar-brand {
+  padding: 5px 0 0 10px;
+  font-size: 20px;
+}
+
+}
+
