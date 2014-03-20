@@ -35,8 +35,8 @@ font-size: 40px;
     
     .carousel-caption {
     	position: absolute;
-    	top: 520px;
-    	left: 50%;
+    	top: 580px;
+    	left: 40%;
     	text-align: left;
     	width: 550px;
     	background-color: rgba(0,0,0,0.8);
@@ -54,7 +54,7 @@ font-size: 40px;
 @media (min-width: 1100px) {
     .carousel-caption {
     	position: absolute;
-    	top: 520px;
+    	top: 580px;
     	left: 50%;
     	text-align: left;
     	width: 550px;
@@ -67,7 +67,7 @@ font-size: 40px;
 @media (min-width: 1200px) {
     .carousel-caption {
     	position: absolute;
-    	top: 520px;
+    	top: 580px;
     	left: 50%;
     	text-align: left;
     	width: 550px;
@@ -79,7 +79,7 @@ font-size: 40px;
 @media (min-width: 1500px) {
     .carousel-caption {
     	position: absolute;
-    	top: 520px;
+    	top: 580px;
     	left: 55%;
     	text-align: left;
     	width: 550px;
@@ -122,5 +122,8 @@ font-size: 40px;
 	}
 	.slidecaption p{
 		font-size: 12px;
+	}
+	.morearrow {
+	font-size: 20px;
 	}
 }
