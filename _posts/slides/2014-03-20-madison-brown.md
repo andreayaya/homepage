@@ -7,4 +7,4 @@ imageUrl: "https://dl.dropboxusercontent.com/u/64133716/Homepage/Slides/madison.
 link: "http://www.fredonia.edu"
 ---
 
-She's Basically saving Buffalo single handedly... She's a Fredonian!
+She is Basically saving Buffalo single handedly... She is a Fredonian!
