@@ -7,9 +7,9 @@ color: white;
 }
 
 .accordion .panel {
-background-color: rgba(0,93,170,0.6);
+background-color: rgba(29,47,111,0.9);
 }
 
 .accordion .panel:hover {
-background-color: rgba(0,93,170,0.8);
+background-color: rgba(29,47,111,1);
 }
