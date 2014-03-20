@@ -56,11 +56,11 @@ text-align: center;
    width: 100%; 
    font-size: 18px;
    color: white;
-   background-color: rgba(0,56,168,0.3);
+   background-color: rgba(0,56,168,0.6);
 }
 
 .boxoverlay:hover {
-   background-color: rgba(0,56,168,0.6);
+   background-color: rgba(0,56,168,0.9);
 }
 
 .glyphicon-arrow-right {
