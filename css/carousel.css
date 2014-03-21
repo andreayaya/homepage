@@ -16,10 +16,10 @@ text-align: right;
 }
 
 .carousel-inner > .item {
-    -webkit-transition: 1s ease-in-out left;
-    -moz-transition: 1s ease-in-out left;
-    -o-transition: 1s ease-in-out left;
-    transition: 1s ease-in-out left;
+    -webkit-transition: 0.3s ease-in-out left;
+    -moz-transition: 0.3s ease-in-out left;
+    -o-transition: 0.3s ease-in-out left;
+    transition: 0.3s ease-in-out left;
 }
 
 /* Wide */
