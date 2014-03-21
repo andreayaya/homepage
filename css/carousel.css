@@ -135,4 +135,7 @@ color: rgba(0,56,168,0.9);
 	.slidecaption p {
 	margin-bottom: 0px;
 	}
+	.carousel-control .icon-prev, .carousel-control .icon-next, .carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right{
+	top: 45%;
+	}
 }
