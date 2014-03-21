@@ -62,16 +62,16 @@ text-align: center;
 .boxoverlay {
    position: absolute;
    padding-left: 10px;
-   bottom: 20px; 
+   bottom: 10px; 
    left: 0; 
    width: 100%; 
    font-size: 18px;
    color: white;
-   background-color: rgba(0,56,168,0.6);
+   background-color: rgba(0,56,168,0.8);
 }
 
 .boxoverlay:hover {
-   background-color: rgba(0,56,168,0.9);
+   background-color: rgba(0,56,168,1);
 }
 
 .glyphicon-arrow-right {
