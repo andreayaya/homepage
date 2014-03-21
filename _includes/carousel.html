@@ -17,7 +17,7 @@
 				<div class="container">
 					<div class="carousel-caption">
 						<div class="col-md-11">
-						<div class="slidetitle">{{ post.title }}</div>
+						<a href="{{ post.link }}"><div class="slidetitle">{{ post.title }}</div></a>
 						<div class="slidecaption">{{ post.content }}</div>
 						</div>
 						{% if post.link %}
@@ -35,7 +35,7 @@
 				<div class="container">
 					<div class="carousel-caption">
 						<div class="col-md-11">
-						<div class="slidetitle">{{ post.title }}</div>
+						<a href="{{ post.link }}"><div class="slidetitle">{{ post.title }}</div></a>
 						<div class="slidecaption">{{ post.content }}</div>
 						</div>
 						{% if post.link %}
