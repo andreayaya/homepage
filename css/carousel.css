@@ -40,7 +40,7 @@ text-align: right;
     	left: 40%;
     	text-align: left;
     	width: 550px;
-    	background-color: rgba(198,127,7,0.8);
+    	background-color: rgba(0,0,0,0.8);
     	padding: 5px 20px 5px 20px;
     	bottom: auto;
     }
@@ -59,7 +59,7 @@ text-align: right;
     	left: 50%;
     	text-align: left;
     	width: 550px;
-    	background-color: rgba(198,127,7,0.8);
+    	background-color: rgba(0,0,0,0.8);
     	padding: 5px 20px 5px 20px;
     	bottom: auto;
     }
@@ -72,7 +72,7 @@ text-align: right;
     	left: 50%;
     	text-align: left;
     	width: 550px;
-    	background-color: rgba(198,127,7,0.8);
+    	background-color: rgba(0,0,0,0.8);
     	padding: 5px 20px 5px 20px;
     	bottom: auto;
     }
@@ -84,7 +84,7 @@ text-align: right;
     	left: 55%;
     	text-align: left;
     	width: 550px;
-    	background-color: rgba(198,127,7,0.8);
+    	background-color: rgba(0,0,0,0.8);
     	padding: 5px 20px 5px 20px;
     	bottom: auto;
     }
@@ -94,7 +94,7 @@ text-align: right;
 /* TABLET */
 @media (min-width: 600px) {
 .carousel-caption {
-    	background-color: rgba(198,127,7,0.8);
+    	background-color: rgba(0,0,0,0.8);
     	padding: 5px 20px 5px 20px;
     }
 }
@@ -104,7 +104,7 @@ text-align: right;
 /* MOBILE */
 @media (max-width: 600px) {
 	.carousel {
-		background-color: rgba(198,127,7,1);
+		background-color: rgba(0,0,0,1);
 		margin-top: 50px;
 	}
 	.carousel-caption {
