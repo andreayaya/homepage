@@ -3,7 +3,7 @@ categories: bigbox
 layout: post
 published: true
 title: Los Angeles Guitar Quartet (LAGQ)
-imageUrl: "http://www.fredonia.edu/music/images/LAGQ/LAGQ_onstage.jpg"
+imageUrl: "http://www.lagq.com/files/images/lagq_cafe_3300x2200.preview.jpg"
 link: "http://www.fredonia.edu/music/los_angeles_guitar_quartet.asp"
 ---
 
