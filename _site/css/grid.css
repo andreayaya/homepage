@@ -65,8 +65,8 @@ max-width: 400px;
    background-color: rgba(0,56,168,1);
 }
 
-.glyphicon-arrow-right {
-padding-left: 10px;
+.fa-arrow-circle-o-right {
+padding-left: 5px;
 }
 
 .grid .row {

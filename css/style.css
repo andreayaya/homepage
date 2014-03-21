@@ -33,6 +33,10 @@ margin-right: auto;
 font-family: helvetica;
 }
 
+h1 {
+font-family: garamond;
+}
+
 
 /* Accordions need padding when stacked */
 .panel-group {

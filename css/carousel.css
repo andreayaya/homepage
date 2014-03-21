@@ -3,7 +3,8 @@
 }
 
 .slidetitle {
-font-size: 20px;
+font-size: 25px;
+font-family: garamond;
 }
 
 .slidecaption p {
@@ -45,7 +46,7 @@ text-align: right;
     	bottom: auto;
     }
     .slidetitle {
-		font-size: 20px;
+		font-size: 25px;
 	}
     .slidecaption p {
 		font-size: 14px;
