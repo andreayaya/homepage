@@ -60,7 +60,8 @@ text-align: center;
 }
 
 .boxoverlay {
-   position: absolute; 
+   position: absolute;
+   padding-left: 10px;
    bottom: 20px; 
    left: 0; 
    width: 100%; 
@@ -76,11 +77,6 @@ text-align: center;
 .glyphicon-arrow-right {
 padding-left: 10px;
 }
-
-.boxspacer {
-   padding:0 5px;
-}
-
 
 .grid .row {
 margin-bottom: 12px;
