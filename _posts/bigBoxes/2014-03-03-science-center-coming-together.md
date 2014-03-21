@@ -2,8 +2,8 @@
 categories: bigbox
 layout: post
 published: true
-title: Science Center coming together
-imageUrl: "http://farm4.staticflickr.com/3763/12622562224_4eecc6eb82_h.jpg"
+title: Watch our new Science Center come together
+imageUrl: "http://static.tumblr.com/7123152f05a2a366877ad2c67cd69f3a/1fjv2lv/LxDmt83q1/tumblr_static_9459466978_f080a49adf_h.jpg"
 link: "http://sunyfredoniasciencecenter.tumblr.com/"
 ---
 
