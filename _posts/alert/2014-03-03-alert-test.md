@@ -1,0 +1,8 @@
+---
+categories: alert
+layout: post
+published: true
+title: Alert Test
+link: "http://www.fredonia.edu/news"
+---
+This is just a test. In the future, we'll use this popup to post alerts related to weather or emergencies on campus. Feel free to click or touch the close button to dismiss this warning. Have a great day!

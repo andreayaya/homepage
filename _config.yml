@@ -128,3 +128,25 @@ prose:
         field:
           element: "text"
           label: "Slide title"
+    _posts/alert:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+      - name: "categories"
+        field:
+          element: "hidden"
+          value: "alert"
+      - name: "published"
+        field:
+          element: "checkbox"
+          label: "Published?"
+          value: "true"
+      - name: "link"
+        field:
+          element: "text"
+          label: "Enter a link for this alert"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Slide title"
