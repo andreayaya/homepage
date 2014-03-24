@@ -155,9 +155,6 @@ prose:
           element: "select"
           label: "Alert Level"
           placeholder: "Select a level"
-          value:
-            - name: "Note"
-            - value: "info"
           options:
             - name: "Note"
               value: "info"
