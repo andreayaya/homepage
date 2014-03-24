@@ -160,5 +160,5 @@ prose:
               value: "info"
             - name: "Warning"
               value: "warning"
-            - name: "Danger"
+            - name: "Emergency"
               value: "danger"
