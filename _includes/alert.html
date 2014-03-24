@@ -3,7 +3,7 @@
 	<div class="alert alert-{{ post.alertLevel }}">
   		<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
   		<p><strong>{{ post.title }}:</strong> {{ post.content | strip_html }}</p>
-  		<p><a href="{{ post.link }}"><button type="button" class="btn btn-danger">More info</button></a></p>
+  		<p><a href="{{ post.link }}"><button type="button" class="btn btn-{{ post.alertLevel }}">More info</button></a></p>
   		
 
   		<p><a href="https://twitter.com/share" class="twitter-share-button" data-url="{{ post.link }}" data-text="Alert from Fredonia: {{ post.title }} - " data-via="sunyfredonia">Tweet</a></p>
