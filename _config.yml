@@ -150,3 +150,15 @@ prose:
         field:
           element: "text"
           label: "Slide title"
+      - name: "alertLevel"
+        field:
+          element: "select"
+          label: "Alert Level"
+          placeholder: "Select a level"
+          options:
+            - name: "Note"
+              value: "info"
+            - name: "Warning"
+              value: "warning"
+            - name: "Danger"
+              value: "danger"
