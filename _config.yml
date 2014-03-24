@@ -156,9 +156,9 @@ prose:
           label: "Alert Level"
           placeholder: "Select a level"
           options:
-            - name: "Note"
+            - name: "Info"
               value: "info"
             - name: "Warning"
               value: "warning"
-            - name: "Emergency"
+            - name: "Danger"
               value: "danger"
