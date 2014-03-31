@@ -16,12 +16,6 @@ production_url : http://sunyfredonis.github.io/homepage
 version : 0.1.0
 
 baseurl : http://sunyfredonia.github.io/homepage
-
- 
-comments :
-  provider : disqus
-  disqus :
-    short_name : canopymaps
    
    
 analytics :
