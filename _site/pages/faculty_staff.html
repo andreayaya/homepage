@@ -5,15 +5,15 @@
 	<meta charset="utf-8"> 
 	<title>Fredonia</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="apple-touch-icon" sizes="76x76" href="http://sunyfredonia.github.io/homepage/img/touch-icon-ipad.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="http://sunyfredonia.github.io/homepage/img/touch-icon-iphone-retina.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/img/touch-icon-ipad.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/img/touch-icon-iphone-retina.png">
     <!-- Bootstrap CSS -->
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="http://sunyfredonia.github.io/homepage/js/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/js/bootstrap/css/bootstrap.min.css">
     <!-- Font Awesome CSS -->
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
     <!-- Fredonia Specific CSS -->
-    <link rel="stylesheet" href="http://sunyfredonia.github.io/homepage/css/style.css">
+    <link rel="stylesheet" href="/css/style.css">
     <!-- Fav icon -->
     <link rel="icon" type="image/ico" href="http://sunyfredonia.github.io/homepage/favicon.ico"/>
     <!-- Shive -->
@@ -35,20 +35,21 @@
       			<span class="icon-bar"></span>
       			<span class="icon-bar"></span>
     		</button>
-    		<a class="navbar-brand" style="font-family:helvetica;color:white;" href="http://sunyfredonia.github.io/homepage/"><img src="http://sunyfredonia.github.io/homepage/img/fredlogowhite.png" style="height:50px;padding-bottom:10px;padding-right:3px;"> FREDONIA</a>
+    		<a class="navbar-brand" style="font-family:helvetica;color:white;" href="/"><img src="http://sunyfredonia.github.io/homepage/img/fredlogowhite.png" style="height:50px;padding-bottom:10px;padding-right:3px;"> FREDONIA</a>
   		</div><!-- navbar-header -->
   			
   		<!-- Collect the nav links, forms, and other content for toggling -->
-  		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+ 	
+  	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
     		<ul class="nav navbar-nav navbar-right">
       			<li><a href="http://www.fredonia.edu/admissions/prospective.asp">Admissions</a></li>
       			<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Students <b class="caret"></b></a>
         			<ul class="dropdown-menu">
-        				<li><a href="http://sunyfredonia.github.io/homepage/pages/students.html">Student Resources</a></li>
+        				<li><a href="/pages/students.html">Student Resources</a></li>
         				<li><a href="http://www.fredonia.edu/studentaffairs/parentlinks.asp">Parent Resources</a></li>
         			</ul>
         		</li>
-      			<li><a href="http://sunyfredonia.github.io/homepage/pages/faculty_staff.html">Faculty & Staff</a></li>
+      			<li><a href="/pages/faculty_staff.html">Faculty & Staff</a></li>
       			<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Alumni <b class="caret"></b></a>
         			<ul class="dropdown-menu">
         				<li><a href="http://alumni.fredonia.edu/">Alumni Network</a></li>
@@ -381,6 +382,40 @@
 </div><!-- container -->
 
 
+<!-- Search -->
+
+<a name="searchbox"></a>
+<div class="search">
+  <div class="container">
+	<h1 class="section-header text-center"><span class="fa fa-search"></span> What else can we help you find?</h1>
+	
+	<!-- Put the following javascript before the closing  tag. -->
+<script>
+(function() {
+  var cx = '001498624467528633936:gt_dejxqt40'; // Insert your own Custom Search engine ID here
+  var gcse = document.createElement('script'); gcse.type = 'text/javascript'; gcse.async = true;
+  gcse.src = (document.location.protocol == 'https' ? 'https:' : 'http:') +
+      '//www.google.com/cse/cse.js?cx=' + cx;
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gcse, s);
+})();
+</script>
+
+<!-- Place this tag where you want both of the search box and the search results to render -->
+<gcse:search></gcse:search>
+	
+	
+	<!-- 
+	<form action="http://google.com/search" method="get">
+	  <input type="hidden" name="as_sitesearch" value="fredonia.edu" />
+	  <input type="text" name="q" class="span10" autocomplete="off" placeholder="Search for anything related to Fredonia here!" />
+	</form>
+	-->
+	
+	
+  </div>
+</div>
+
+
 <!-- Footer -->
 <div class="footer">
 <hr>
@@ -388,7 +423,7 @@
 	<div class="row">
 		<div class="col-md-3">
 			<address>
-<a style="font-family:helvetica;color:white;" href="http://sunyfredonia.github.io/homepage/"><img src="http://sunyfredonia.github.io/homepage/img/fredlogowhite.png" style="height:70px;padding-bottom:10px;padding-right:3px;"></br>FREDONIA</a></br>
+<a style="font-family:helvetica;color:white;" href="/"><img src="http://sunyfredonia.github.io/homepage/img/fredlogowhite.png" style="height:70px;padding-bottom:10px;padding-right:3px;"></br>FREDONIA</a></br>
 280 Central Ave.<br>
 Fredonia, NY 14063<br>
 716-673-3111
@@ -444,11 +479,11 @@ Fredonia, NY 14063<br>
     <script src="https://code.jquery.com/jquery.js"></script>
     <!-- Bootstrap Javascript -->
     <!-- Latest compiled and minified JavaScript -->
-    <script src="http://sunyfredonia.github.io/homepage/js/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/js/bootstrap/js/bootstrap.min.js"></script>
     
     <!-- Script to center landscape vs portrait images in grid -->
         <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/2.1.0/jquery.imagesloaded.min.js"></script>
-        <script src="http://sunyfredonia.github.io/homepage/js/jquery-imagefill.js"></script>
+        <script src="/js/jquery-imagefill.js"></script>
         <script>
             $('.box').imagefill();
         </script>
