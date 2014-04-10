@@ -1,11 +1,18 @@
-.footer p a{
+.footer p a {
 color: white;
 }
 
-.footer h1{
+.footer h1 {
 color: white;
 }
 
-.footer address{
+.footer address {
 color: white;
+}
+
+.footer strong {
+color: white;
+font-size: 14px;
+line-height: 1em;
+text-decoration: underline;
 }
