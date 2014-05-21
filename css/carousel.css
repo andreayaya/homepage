@@ -30,6 +30,7 @@ color: rgba(0,56,168,0.9);
     transition: 0.3s ease-in-out left;
 }
 
+
 /* Wide */
 @media (min-width: 1000px) {
     #myCarousel.carousel img {
@@ -41,6 +42,10 @@ color: rgba(0,56,168,0.9);
     #myCarousel, div.carousel-inner {
     	max-height: 700px;
     }
+    
+    .carousel-inner iframe {
+height: 700px;
+}
     
     .carousel-caption {
     	position: absolute;
@@ -101,6 +106,8 @@ color: rgba(0,56,168,0.9);
     	background-color: rgba(130,117,102,0.9);
     	padding: 5px 20px 5px 20px;
     }
+    
+
 }
 
 
@@ -138,4 +145,5 @@ color: rgba(0,56,168,0.9);
 	.carousel-control .icon-prev, .carousel-control .icon-next, .carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right{
 	top: 45%;
 	}
+	
 }
