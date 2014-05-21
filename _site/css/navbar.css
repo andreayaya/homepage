@@ -18,6 +18,12 @@ font-size: 30px;
 padding-top: 15px;
 }
 
+.navbar-brand img {
+height:60px;
+padding-bottom:10px;
+padding-right:3px;
+}
+
 .navbar-inner {
 background-color: rgba(0,56,168,0.9);
 height: 80px;
@@ -61,6 +67,12 @@ background-color: rgba(0,56,168,1);
 .navbar {
 background-color: rgba(0,56,168,1);
 }
+.navbar-brand img {
+height:50px;
+padding-bottom:10px;
+padding-right:3px;
+}
+
 
 }
 
