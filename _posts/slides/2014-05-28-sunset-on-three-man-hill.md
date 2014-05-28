@@ -3,8 +3,8 @@ categories: slide
 layout: post
 published: true
 title: Sunset on Three Man Hill
-imageUrl: "http://web.fredonia.edu/index_files/SUNYFredonia_logo_white_2010.png"
-link: "http://web.fredonia.edu/index_files/SUNYFredonia_logo_white_2010.png"
+imageUrl: "http://web.fredonia.edu/index_files/sunset.jpg"
+link: "http://web.fredonia.edu/index_files/sunset.jpg"
 ---
 
 Sunset on Three Man Hill and Rockefeller Arts Center.
