@@ -42,6 +42,14 @@ height: 80px;
 .navbar-nav>.open>a:focus { color: #D4D4D4}
 }
 
+@media (max-width: 990px) {
+.navbar-brand img {
+height:50px;
+padding-bottom:10px;
+padding-right:3px;
+}
+}
+
 /** Mobile **/
 @media (max-width: 800px) {
 
