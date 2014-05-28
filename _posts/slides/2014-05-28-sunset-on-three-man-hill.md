@@ -7,4 +7,4 @@ imageUrl: "http://web.fredonia.edu/index_files/sunset.jpg"
 link: "http://web.fredonia.edu/index_files/sunset.jpg"
 ---
 
-Sunset on Three Man Hill next to Rockefeller Arts Center.
+Sunset on Three Man Hill next to the Rockefeller Arts Center.
