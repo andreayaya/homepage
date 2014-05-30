@@ -13,7 +13,7 @@ Nicholas Gunner (Project lead) - [@nicholas_gunner](http://www.twitter.com/nicho
 
 [Preview the site](http://sunyfredonia.github.io/homepage/)
 
-Special thanks to:
+#### Special thanks to:
 * Jonathan Woolson - University Webmaster
 * Andrea Wasiura - Web Administrator
 * Patty Herkey - Graphic Designer
