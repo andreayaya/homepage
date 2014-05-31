@@ -1,4 +1,4 @@
-![Logo](img/logo.png)
+![Logo](img/fredlogowhite.png)
 Fredonia.edu's Home page.
 ========
 Work on re-designing Fredonia's homepage began on 1/21/14.
