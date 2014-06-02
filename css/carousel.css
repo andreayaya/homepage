@@ -40,6 +40,11 @@ color: rgba(0,56,168,0.9);
     margin-left: -20px;
 }
 
+.downarrowlanding {
+position: absolute;
+    top: 600px;
+    }
+
 /* Wide */
 @media (min-width: 1000px) {
     #myCarousel.carousel img {
