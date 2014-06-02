@@ -59,6 +59,11 @@ prose:
           element: "checkbox"
           label: "Published?"
           value: "true"
+      - name: "caption"
+        field:
+          element: "checkbox"
+          label: "Caption?"
+          value: "true"
       - name: "imageUrl"
         field:
           element: "text"
