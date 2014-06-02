@@ -11,7 +11,7 @@ If you are interested in contributing, please [ping me on Twitter](http://www.tw
 
 Nicholas Gunner (Project lead) - [@nicholas_gunner](http://www.twitter.com/nicholas_gunner)
 
-[Preview the site](http://www.fredonia.edu/)
+[Preview the site](http://sunyfredonia.github.io/homepage/)
 
 #### Special thanks to:
 * Jonathan Woolson - University Webmaster
