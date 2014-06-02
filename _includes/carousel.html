@@ -23,9 +23,11 @@
 						<a href="{{ post.link }}"><div class="slidetitle">{{ post.title }}</div></a>
 						<div class="slidecaption">{{ post.content }}</div>
 						</div>
+						{% if post.link %}
 						<div class="col-md-1">
 						<div class="morearrow"><a href="{{ post.link }}"><span class="fa fa-arrow-circle-o-right"></span></a></div>
 						</div>
+						{% endif %}
 					</div><!-- carousel-caption -->
 					{% endif %}
 				</div><!-- container -->
