@@ -29,7 +29,7 @@
 						</div>
 						{% endif %}
 					</div><!-- carousel-caption -->
-					{% enditf %}
+					{% endif %}
 				</div><!-- container -->
 			</div><!-- item -->
 			{% endfor %}
@@ -37,6 +37,7 @@
 			<div class="item">
 				<img src="{{ post.imageUrl }}" alt="{{ post.title }}">
 				<div class="container">
+					{% if page.caption == 'true' %}
 					<div class="carousel-caption">
 						<div class="col-md-11">
 						<a href="{{ post.link }}"><div class="slidetitle">{{ post.title }}</div></a>
@@ -48,6 +49,7 @@
 						</div>
 						{% endif %}
 					</div><!-- carousel-caption -->
+					{% endif %}
 				</div><!-- container -->
 			</div><!-- item -->
 			{% endfor %}
