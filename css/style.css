@@ -98,5 +98,9 @@ background-repeat: repeat;
 background-color: #c67f07;
 }
 
+.smalltext { 
+font-size: 80%; 
+}
+
 /* ie styles */
 @import url("ie.css");
