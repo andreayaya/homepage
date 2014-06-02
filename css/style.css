@@ -97,3 +97,6 @@ background-repeat: repeat;
 .boxtype {
 background-color: #c67f07;
 }
+
+/* ie styles */
+@import url("ie.css");
