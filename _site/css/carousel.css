@@ -30,6 +30,15 @@ color: rgba(0,56,168,0.9);
     transition: 0.3s ease-in-out left;
 }
 
+.downarrow {
+	position: absolute;
+    top: 650px;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    font-size: 35px;
+    margin-left: -20px;
+}
 
 /* Wide */
 @media (min-width: 1000px) {
@@ -61,6 +70,13 @@ height: 700px;
 	}
     .slidecaption p {
 		font-size: 14px;
+	}
+
+}
+
+@media (max-width: 1100px) {
+	.downarrow {
+	display: none;
 	}
 }
 
