@@ -22,3 +22,7 @@ height:60px;
 padding-bottom:10px;
 padding-right:3px;
 }
+
+address a {
+  color:white;
+}
