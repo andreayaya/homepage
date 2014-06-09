@@ -42,7 +42,7 @@ color: rgba(0,56,168,0.9);
 
 .downarrowlanding {
 position: absolute;
-    top: 600px;
+    top: 500px;
     }
 
 /* Wide */
@@ -54,16 +54,16 @@ position: absolute;
     	
     }
     #myCarousel, div.carousel-inner {
-    	max-height: 700px;
+    	max-height: 600px;
     }
     
     .carousel-inner iframe {
-height: 700px;
-}
+	height: 600px;
+	}
     
     .carousel-caption {
     	position: absolute;
-    	top: 550px;
+    	top: 450px;
     	left: 40%;
     	text-align: left;
     	width: 550px;
@@ -88,7 +88,7 @@ height: 700px;
 @media (min-width: 1100px) {
     .carousel-caption {
     	position: absolute;
-    	top: 550px;
+    	top: 450px;
     	left: 50%;
     	text-align: left;
     	width: 550px;
