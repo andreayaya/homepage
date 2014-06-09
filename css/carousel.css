@@ -32,11 +32,11 @@ color: rgba(0,56,168,0.9);
 
 .downarrow {
 	position: absolute;
-    top: 550px;
+    top: 560px;
     left: 50%;
     right: auto;
     bottom: auto;
-    font-size: 35px;
+    font-size: 25px;
     margin-left: -20px;
 }
 
