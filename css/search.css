@@ -3,5 +3,6 @@ height: 50px;
 }
 
 #searchboxa {
-  padding-top: -400px;
+  position: absolute;
+  margin-top: -400px;
 }
