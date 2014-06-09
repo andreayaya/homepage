@@ -111,7 +111,7 @@ position: absolute;
 @media (min-width: 1500px) {
     .carousel-caption {
     	position: absolute;
-    	top: 550px;
+    	top: 450px;
     	left: 55%;
     	text-align: left;
     	width: 550px;
